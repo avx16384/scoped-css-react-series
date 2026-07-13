@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Trash directory (trash.sh)
+.trash/
+
+# Test/coverage
+coverage/
+*.lcov
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

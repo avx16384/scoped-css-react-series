@@ -1,0 +1,26 @@
+/* Global reset — only page-level concerns, no component styles here.
+   Component styles are all scoped via useCSS() from scoped-css-react. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  color: #1a1a2e;
+  background: #f0f2f5;
+  line-height: 1.6;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
