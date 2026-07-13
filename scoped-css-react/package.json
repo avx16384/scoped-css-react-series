@@ -39,6 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gmono/server-reactor-packages.git"
+    "url": "git+https://github.com/avx16384/scoped-css-react-series.git",
+    "directory": "scoped-css-react"
   }
 }
